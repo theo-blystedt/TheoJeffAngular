@@ -1,0 +1,20 @@
+<form #teamForm="ngForm" (ngSubmit)="onSubmit(teamForm)">
+  <div>
+    <label for="TeamLeague">League</label>
+      <input type="text" id="TeamLeague" name="Name" [(ngModel)]="team.league" required>
+
+  </div>
+  <div>
+    <label for="Founded">Founded:</label>
+    <input type="number" id="Founded" name="Founded" [(ngModel)]="team.founded" required>
+  </div>
+  <div>
+    <label for="Name">Name:</label>
+    <input type="text" id=Name name="Name" [(ngModel)]="team.name" required>
+  </div>
+  <div>
+    <label for="country">Country:</label>
+    <input type="text" id="country" name="country" [(ngModel)]="team.country" required>
+  </div>
+  <button type="submit" >Add Team</button>
+</form>

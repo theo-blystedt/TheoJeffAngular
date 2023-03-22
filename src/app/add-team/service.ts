@@ -4,18 +4,18 @@ import { AngularFireDatabase, AngularFireList } from '@angular/fire/compat/datab
 @Injectable({
   providedIn: 'root',
 })
-export class CatService {
-  catsRef: AngularFireList<any>;
+export class Service {
+  ref: AngularFireList<any>;
 
   constructor(private db: AngularFireDatabase) {
-    this.catsRef = db.list('cats');
+    this.ref = db.list('teams');
   }
 
-  addCat(cat: any) {
-    return this.catsRef.push(cat);
+  addTeam(team: any) {
+    return this.ref.push(team);
   }
 
-  getCats() {
-    return this.catsRef.valueChanges();
+  getTeams() {
+    return this.ref.valueChanges();
   }
 }

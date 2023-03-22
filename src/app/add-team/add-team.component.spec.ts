@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { AddCatComponent } from './add-cat.component';
+import { AddTeamComponent } from './add-team.component';
 
-describe('AddCatComponent', () => {
-  let component: AddCatComponent;
-  let fixture: ComponentFixture<AddCatComponent>;
+describe('AddTeamComponent', () => {
+  let component: AddTeamComponent;
+  let fixture: ComponentFixture<AddTeamComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ AddCatComponent ]
+      declarations: [ AddTeamComponent ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(AddCatComponent);
+    fixture = TestBed.createComponent(AddTeamComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

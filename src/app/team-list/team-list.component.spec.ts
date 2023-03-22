@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { CatListComponent } from './cat-list.component';
+import { TeamListComponent } from './team-list.component';
 
-describe('CatListComponent', () => {
-  let component: CatListComponent;
-  let fixture: ComponentFixture<CatListComponent>;
+describe('TeamListComponent', () => {
+  let component: TeamListComponent;
+  let fixture: ComponentFixture<TeamListComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ CatListComponent ]
+      declarations: [ TeamListComponent ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(CatListComponent);
+    fixture = TestBed.createComponent(TeamListComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

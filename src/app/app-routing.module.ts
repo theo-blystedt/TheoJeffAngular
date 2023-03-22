@@ -5,16 +5,16 @@ import { AuthGuard } from './shared/auth.guard';
 import { HomeComponent } from './home/home.component';
 import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
-import { AddCatComponent } from './add-cat/add-cat.component';
-import { CatListComponent } from './cat-list/cat-list.component';
+import { AddTeamComponent } from './add-team/add-team.component';
+import { TeamListComponent } from './team-list/team-list.component';
 
 const routes: Routes = [
   { path: '', redirectTo:'login', pathMatch:'full'},
   { path:'login', component: LoginComponent},
   { path:'register', component: RegisterComponent},
   { path: 'home', component: HomeComponent, canActivate: [AuthGuard] },
-  { path: 'add-cat', component: AddCatComponent, canActivate: [AuthGuard] },
-  { path: 'cat-list', component: CatListComponent,canActivate:[AuthGuard] },
+  { path: 'add-team', component: AddTeamComponent, canActivate: [AuthGuard] },
+  { path: 'team-list', component: TeamListComponent,canActivate:[AuthGuard] },
 ];
 
 @NgModule({

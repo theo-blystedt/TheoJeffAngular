@@ -17,9 +17,9 @@ import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
 import { FooterComponent } from './footer/footer.component';
 import { AngularFireDatabaseModule } from '@angular/fire/compat/database';
-import { AddCatComponent } from './add-cat/add-cat.component';
-import { CatService } from './add-cat/cat.service';
-import { CatListComponent } from './cat-list/cat-list.component'
+import { AddTeamComponent } from './add-team/add-team.component';
+import { Service } from './add-team/service';
+import { TeamListComponent } from './team-list/team-list.component'
 import {HomeComponent} from "./home/home.component";
 
 @NgModule({
@@ -30,8 +30,8 @@ import {HomeComponent} from "./home/home.component";
     LoginComponent,
     RegisterComponent,
     FooterComponent,
-    AddCatComponent,
-    CatListComponent
+    AddTeamComponent,
+    TeamListComponent
   ],
   imports: [
     BrowserModule,
@@ -46,7 +46,7 @@ import {HomeComponent} from "./home/home.component";
     FormsModule,
     AngularFireDatabaseModule
   ],
-  providers: [CatService],
+  providers: [Service],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
