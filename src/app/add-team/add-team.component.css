@@ -1,4 +1,4 @@
-/* Style for the form container */
+
 form {
   font-family: Arial, sans-serif;
   border: 1px solid #ccc;
@@ -9,13 +9,13 @@ form {
   margin: 50px auto; /* center horizontally */
 }
 
-/* Style for the form labels */
+
 form label {
   display: block;
   margin-bottom: 5px;
 }
 
-/* Style for the form input fields */
+
 form input[type="text"],
 form input[type="number"],
 form select {
@@ -28,7 +28,7 @@ form select {
   box-sizing: border-box;
 }
 
-/* Style for the form button */
+
 form button {
   background-color: #4CAF50;
   color: #fff;
@@ -38,7 +38,7 @@ form button {
   cursor: pointer;
 }
 
-/* Style for the disabled button */
+
 form button[disabled] {
   background-color: #ccc;
   cursor: default;

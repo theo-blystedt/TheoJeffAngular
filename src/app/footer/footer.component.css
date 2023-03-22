@@ -1,13 +1,13 @@
 .footer {
   width: 100%;
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: black;
   color: #fff;
   padding: 10px;
-  position: fixed; /* change to fixed */
+  position: fixed;
   justify-content: center;
   bottom: 0;
-  left: 0; /* add left property */
-  right: 0; /* add right property */
+  left: 0;
+  right: 0;
 }
 
 .footer-content {
