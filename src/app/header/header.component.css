@@ -3,16 +3,16 @@ header {
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  background-color: #f3f3f3;
+  backdrop-filter: blur(5px);
   padding: 20px 0;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 
 h1 {
-  font-size: 1.5em;
+  font-size: 250%;
   margin: 0;
-  color: #333;
+  color: black;
   order: 2;
   text-align: center;
   width: 100%;
@@ -47,6 +47,8 @@ nav a {
   background-color: #f8f9fa;
   color: #333;
   transition: color 0.3s;
+  text-decoration: none;
+
 }
 
 nav a:hover {

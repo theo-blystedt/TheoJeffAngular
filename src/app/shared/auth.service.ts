@@ -1,7 +1,6 @@
 import { Injectable } from '@angular/core';
 import{ AngularFireAuth } from '@angular/fire/compat/auth'
 import {Router} from "@angular/router";
-import * as firebase from 'firebase/compat/app';
 @Injectable({
   providedIn: 'root'
 })
@@ -14,7 +13,7 @@ export class AuthService {
   login(email: string, password: string) {
     this.fireauth.signInWithEmailAndPassword(email, password).then(() => {
         localStorage.setItem('token', 'true');
-        this.router.navigate(['/home']); // Redirect to HomeComponent after login
+        this.router.navigate(['/home']); // Redirect to HomeComponent when logged i
       }, err => {
         alert(err.message);
         this.router.navigate(['/login']);
@@ -43,15 +42,5 @@ export class AuthService {
       })
   }
 
-  // Google login method
-  loginWithGoogle() {
-    const provider = new firebase.default.auth.GoogleAuthProvider();
-    this.fireauth.signInWithPopup(provider).then(() => {
-      localStorage.setItem('token', 'true');
-      this.router.navigate(['/home']); // Redirect to HomeComponent after login
-    }).catch(err => {
-      alert(err.message);
-      this.router.navigate(['/login']);
-    });
-  }
+
 }
