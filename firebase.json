@@ -1,8 +1,8 @@
 {
   "hosting": [
     {
-      "target": "AlbinMartin",
-      "public": "dist/albin-martin",
+      "target": "Angular",
+      "public": "dist/Angular",
       "ignore": [
         "**/.*"
       ],
@@ -34,8 +34,8 @@
       ]
     },
     {
-      "target": "AlbinMartin",
-      "public": "dist/albin-martin",
+      "target": "Angular",
+      "public": "dist/Angular",
       "ignore": [
         "**/.*"
       ],

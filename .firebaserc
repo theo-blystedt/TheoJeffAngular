@@ -1,14 +1,14 @@
 {
   "targets": {
-    "albin-martin": {
+    "Angular": {
       "hosting": {
-        "AlbinMartin": [
-          "albin-martin"
+        "Angular": [
+          "Angular"
         ]
       }
     }
   },
   "projects": {
-    "default": "albin-martin"
+    "default": "Angular"
   }
 }
