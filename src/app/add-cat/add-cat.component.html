@@ -1,0 +1,17 @@
+<form #catForm="ngForm" (ngSubmit)="onSubmit(catForm)">
+  <div>
+    <label for="breed">Breed:</label>
+    <select id="breed" name="breed" [(ngModel)]="cat.breed" required>
+      <option *ngFor="let breed of catBreeds" [value]="breed">{{ breed }}</option>
+    </select>
+  </div>
+  <div>
+    <label for="age">Age (0-20):</label>
+    <input type="number" id="age" name="age" [(ngModel)]="cat.age" min="0" max="20" required>
+  </div>
+  <div>
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" [(ngModel)]="cat.name" required>
+  </div>
+  <button type="submit" [disabled]="!catForm.valid">Add Cat</button>
+</form>

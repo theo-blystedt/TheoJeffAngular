@@ -1,0 +1,45 @@
+/* Style for the form container */
+form {
+  font-family: Arial, sans-serif;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f7f7f7;
+  max-width: 500px;
+  padding: 20px;
+  margin: 50px auto; /* center horizontally */
+}
+
+/* Style for the form labels */
+form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+/* Style for the form input fields */
+form input[type="text"],
+form input[type="number"],
+form select {
+  display: block;
+  margin-bottom: 10px;
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  box-sizing: border-box;
+}
+
+/* Style for the form button */
+form button {
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Style for the disabled button */
+form button[disabled] {
+  background-color: #ccc;
+  cursor: default;
+}

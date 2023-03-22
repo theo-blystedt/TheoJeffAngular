@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "albin-martin": {
+      "hosting": {
+        "AlbinMartin": [
+          "albin-martin"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "albin-martin"
+  }
+}
