@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { Router, NavigationEnd } from '@angular/router';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-root',
@@ -10,6 +10,16 @@ export class AppComponent {
   constructor(private router: Router) {}
 
   showFooter(): boolean {
-    return this.router.url !== '/login';
+
+    if(this.router.url == '/login'){
+      return false;
+    }
+    else if (this.router.url == '/register'){
+      return false;
+    }
+    else {
+      return true;
+    }
+
   }
 }
