@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/Angular",
+            "outputPath": "dist/angularassignment2-69539",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": [
@@ -67,10 +67,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "Angular:build:production"
+              "browserTarget": "angularassignment2-69539:build:production"
             },
             "development": {
-              "browserTarget": "Angular:build:development"
+              "browserTarget": "angularassignment2-69539:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -78,7 +78,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "Angular:build"
+            "browserTarget": "angularassignment2-69539:build"
           }
         },
         "test": {
@@ -105,9 +105,9 @@
           "options": {
             "prerender": false,
             "ssr": false,
-            "browserTarget": "Angular:build:production",
-            "firebaseProject": "Angular",
-            "firebaseHostingSite": "Angular"
+            "browserTarget": "angularassignment2-69539:build:production",
+            "firebaseProject": "angularassignment2-69539",
+            "firebaseHostingSite": "angularassignment2-69539"
           }
         }
       }

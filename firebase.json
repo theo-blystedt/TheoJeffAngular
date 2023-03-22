@@ -1,8 +1,8 @@
 {
   "hosting": [
     {
-      "target": "Angular",
-      "public": "dist/Angular",
+      "target": "angularassignment2-69539",
+      "public": "dist/angularassignment2-69539",
       "ignore": [
         "**/.*"
       ],
@@ -34,8 +34,8 @@
       ]
     },
     {
-      "target": "Angular",
-      "public": "dist/Angular",
+      "target": "angularassignment2-69539",
+      "public": "dist/angularassignment2-69539",
       "ignore": [
         "**/.*"
       ],
