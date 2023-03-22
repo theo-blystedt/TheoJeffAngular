@@ -9,6 +9,6 @@
     }
   },
   "projects": {
-    "default": "Angular"
+    "default": "angular"
   }
 }

@@ -1,8 +1,8 @@
 {
   "hosting": [
     {
-      "target": "angularassignment2-69539",
-      "public": "dist/angularassignment2-69539",
+      "target": "TheoJeffAngular",
+      "public": "dist/TheoJeffAngular",
       "ignore": [
         "**/.*"
       ],
@@ -34,8 +34,8 @@
       ]
     },
     {
-      "target": "angularassignment2-69539",
-      "public": "dist/angularassignment2-69539",
+      "target": "Angular",
+      "public": "dist/Angular",
       "ignore": [
         "**/.*"
       ],
