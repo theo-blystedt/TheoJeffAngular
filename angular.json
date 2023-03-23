@@ -106,7 +106,7 @@
             "prerender": false,
             "ssr": false,
             "browserTarget": "Angular:build:production",
-            "firebaseProject": "angular",
+            "firebaseProject": "angularassignment2-69539",
             "firebaseHostingSite": "Angular"
           }
         }
